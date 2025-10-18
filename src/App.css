@@ -1,0 +1,33 @@
+
+/* * NOTE: This is an illustrative example of what Tailwind's utility classes 
+ * in IssuesTracker.jsx compile into. In a standard React setup, you only 
+ * use the classes (e.g., 'min-h-screen') directly in your JSX.
+ */
+
+/* Equivalent of: .min-h-screen .bg-[#0b1120] .text-white .font-inter .p-4 */
+.app-container {
+    min-height: 100vh;
+    background-color: #0b1120; /* Dark background color */
+    color: #ffffff; /* Text color */
+    font-family: Inter, sans-serif;
+    padding: 1rem; /* p-4 */
+}
+
+/* Equivalent of: .text-4xl .font-extrabold .text-yellow-400 .mb-2 */
+.heading-main {
+    font-size: 2.25rem; /* 4xl */
+    line-height: 2.5rem;
+    font-weight: 800; /* extrabold */
+    color: #facc15; /* yellow-400 */
+    margin-bottom: 0.5rem; /* mb-2 */
+}
+
+/* Equivalent of: .h-[250px] .md:h-[400px] .object-cover */
+.carousel-image {
+    height: 250px;
+    object-fit: cover;
+    /* Responsive adjustment for medium screens and up */
+    /* @media (min-width: 768px) { height: 400px; } */
+}
+
+
